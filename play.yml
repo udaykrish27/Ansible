@@ -1,5 +1,5 @@
 ---
-- name: install Httpd
+- name: install  Httpd
   hosts: all
   remote_user: root
   #include_vars: file=infra_var.yml
