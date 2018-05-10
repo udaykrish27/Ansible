@@ -1,0 +1,6 @@
+- name: start the httpd
+  service: name=httpd state=started
+#- name: Copy indexfile
+#  copy: src=files/index.html dest=/var/www/html/index.html mode=644
+- name: Copy indexfile
+  template: src=files/index.html.j2 dest=/var/www/html/index.html mode=644
