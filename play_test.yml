@@ -4,7 +4,7 @@
   remote_user: root
 
   tasks:
-   # - name: Install httpd
+   # - name: Install httpd   d
    #   yum: name=httpd state=present
    # - name: start the httpd
    #   service: name=httpd state=started
